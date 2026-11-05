@@ -123,7 +123,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .avs span{display:grid;place-items:center;font:600 11px var(--f-mono);color:var(--lime)}
 .stars{color:var(--star);letter-spacing:2px;font-size:13px}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px}
-.rank-card{position:absolute;right:calc(var(--gut-r) + 3vw);top:calc(env(safe-area-inset-top,0px) + 92px);z-index:1;display:grid;gap:4px;padding:14px 18px;min-width:210px;
+.rank-card{position:absolute;right:calc(var(--gut-r) + 3vw);top:calc(env(safe-area-inset-top,0px) + 112px);z-index:1;display:grid;gap:4px;padding:14px 18px;min-width:210px;
   border:1px solid var(--line-2);border-radius:16px;background:rgba(19,19,21,.55);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);animation:float 7s ease-in-out infinite}
 .rank-card b{font:400 40px/1 var(--f-display);color:var(--lime)}
 @keyframes float{50%{transform:translateY(-10px)}}
